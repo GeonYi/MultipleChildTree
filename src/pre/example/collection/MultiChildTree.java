@@ -41,7 +41,7 @@ class MultiChildTree<T> implements Tree {
     public Node addNode(Object data, Node parent) throws NotExistRootException {
 
         if(this.root == null){
-            throw new NotExistRootException("not exist root... let call addRoot API before call addNode");
+            throw new NotExistRootException("not exist root... please call addRoot API before call addNode");
         }
 
         TreeNode<T> tn = new TreeNode<>(data, parent);

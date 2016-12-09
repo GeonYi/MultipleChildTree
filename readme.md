@@ -2,11 +2,11 @@
 
 #### description
 
-it's implement just tree struct.
+It's just tree struct.
 
-tree is set of node.  *tree* consists of *parent*, *child*.
+Tree was set of node.  *tree* consists of *parent*, *child*.
 
-root has just 2 child in java(as BinaryTree API).  so, i implement tree will have many child.
+Root node has just 2 child in java(as BinaryTree API).  so, i implement tree will have many child.
 
 in java,
 ~~~
@@ -16,9 +16,9 @@ in java,
                    -> child022
 ~~~
 
-child01 is parent node of child011, child012 and child of root.
+*child01* is parent node of *child011*, *child012* and child of root.
 
-it's impossible has many child. like this,
+This library is impossible has many child. like this,
 
 ~~~
   root  -> Child01 -> child011
@@ -28,7 +28,7 @@ it's impossible has many child. like this,
                    -> child022
 ~~~
 
-And, i wanted each node are runnable.  but, doesn't impl, just declare interface.
+And, I wanted each node are runnable.  but, doesn't impl, just declare interface.
 if using this code and need running of node, than send mail. Or need more function, also send mail.
 
 #### using
